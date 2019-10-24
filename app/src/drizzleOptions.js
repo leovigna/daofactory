@@ -1,22 +1,21 @@
-import SimpleStorage from "./contracts/SimpleStorage.json";
-import ComplexStorage from "./contracts/ComplexStorage.json";
-import TutorialToken from "./contracts/TutorialToken.json";
+import ERC20Token from "./contracts/ERC20Token.json"
+import CrowdsaleSimple from "./contracts/CrowdsaleSimple.json"
 
 const options = {
   web3: {
     block: false,
     fallback: {
       type: "ws",
-      url: "ws://127.0.0.1:8545",
-    },
+      url: "ws://127.0.0.1:7545"
+    }
   },
-  contracts: [SimpleStorage, ComplexStorage, TutorialToken],
+  contracts: [], // [ERC20Token, CrowdsaleSimple],
   events: {
-    SimpleStorage: ["StorageSet"],
+    // ERC20Token: ["Transfer", "Approval"]
   },
   polls: {
-    accounts: 1500,
-  },
-};
+    accounts: 1500
+  }
+}
 
-export default options;
+export default options

@@ -1,17 +1,39 @@
-import MyComponent from "./MyComponent";
-import TokenFactory from "./TokenFactory";
+import React from "react"
+import {
+  Navbar,
+  Container,
+  Button,
+  Form,
+  FormGroup,
+  Label,
+  Input,
+  FormText
+} from "reactstrap"
 
-import { drizzleConnect } from "@drizzle/react-plugin";
+import { drizzleConnect } from "@drizzle/react-plugin"
+import MyComponent from "./MyComponent"
+import TokenFactory from "./TokenFactory"
 
 const mapStateToProps = state => {
   return {
     accounts: state.accounts,
+    contracts: state.contracts,
     SimpleStorage: state.contracts.SimpleStorage,
     TutorialToken: state.contracts.TutorialToken,
-    drizzleStatus: state.drizzleStatus,
-  };
-};
+    drizzleStatus: state.drizzleStatus
+  }
+}
 
-const MyContainer = drizzleConnect(TokenFactory, mapStateToProps);
+// <MyComponent {...props} />
+const MyContainer = props => {
+  return (
+    <div>
+      <Navbar />
+      <Container>
+        <TokenFactory {...props} />
+      </Container>
+    </div>
+  )
+}
 
-export default MyContainer;
+export default drizzleConnect(MyContainer, mapStateToProps)
