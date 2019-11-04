@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/daofactory/static/css/main.cfd60192.chunk.css",
-    "main.js": "/daofactory/static/js/main.cd5b95ed.chunk.js",
-    "main.js.map": "/daofactory/static/js/main.cd5b95ed.chunk.js.map",
+    "main.css": "/daofactory/static/css/main.c7500840.chunk.css",
+    "main.js": "/daofactory/static/js/main.4d121cb3.chunk.js",
+    "main.js.map": "/daofactory/static/js/main.4d121cb3.chunk.js.map",
     "runtime-main.js": "/daofactory/static/js/runtime-main.b43f5693.js",
     "runtime-main.js.map": "/daofactory/static/js/runtime-main.b43f5693.js.map",
-    "static/js/2.e135a55b.chunk.js": "/daofactory/static/js/2.e135a55b.chunk.js",
-    "static/js/2.e135a55b.chunk.js.map": "/daofactory/static/js/2.e135a55b.chunk.js.map",
+    "static/js/2.d7db5acf.chunk.js": "/daofactory/static/js/2.d7db5acf.chunk.js",
+    "static/js/2.d7db5acf.chunk.js.map": "/daofactory/static/js/2.d7db5acf.chunk.js.map",
     "index.html": "/daofactory/index.html",
-    "precache-manifest.1fdd910e91e85c98fc827fa18966acc8.js": "/daofactory/precache-manifest.1fdd910e91e85c98fc827fa18966acc8.js",
+    "precache-manifest.df7207ba952caa4cd0667ac9fb705b1c.js": "/daofactory/precache-manifest.df7207ba952caa4cd0667ac9fb705b1c.js",
     "service-worker.js": "/daofactory/service-worker.js",
-    "static/css/main.cfd60192.chunk.css.map": "/daofactory/static/css/main.cfd60192.chunk.css.map"
+    "static/css/main.c7500840.chunk.css.map": "/daofactory/static/css/main.c7500840.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.b43f5693.js",
-    "static/js/2.e135a55b.chunk.js",
-    "static/css/main.cfd60192.chunk.css",
-    "static/js/main.cd5b95ed.chunk.js"
+    "static/js/2.d7db5acf.chunk.js",
+    "static/css/main.c7500840.chunk.css",
+    "static/js/main.4d121cb3.chunk.js"
   ]
 }
