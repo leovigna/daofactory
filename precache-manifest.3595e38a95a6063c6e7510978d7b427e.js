@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60dd292ef52fa6a2f2c37204c68aa49b",
+    "revision": "dd853e78f5f048291230731a9e219b47",
     "url": "/daofactory/index.html"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/daofactory/static/js/6.e846185e.chunk.js"
   },
   {
-    "revision": "85612a48c9021fad63ed",
-    "url": "/daofactory/static/js/7.ac110531.chunk.js"
+    "revision": "893bebccf0c091b15912",
+    "url": "/daofactory/static/js/7.a3058bab.chunk.js"
   },
   {
     "revision": "8d58031d78e1e3b3838f",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/daofactory/static/js/main.0b23a513.chunk.js"
   },
   {
-    "revision": "d0ab309a7e25cefc6be5",
-    "url": "/daofactory/static/js/runtime-main.b1fec2fa.js"
+    "revision": "653954942b83856db954",
+    "url": "/daofactory/static/js/runtime-main.d8ec18e6.js"
   },
   {
     "revision": "0087dce419a7376eb06c837f740d31eb",
