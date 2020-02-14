@@ -21,6 +21,16 @@ export default {
       icon: "icon-pencil"
     },
     {
+        name: "Create Custom",
+        url: "/create/custom",
+        icon: "icon-pencil"
+      },
+      {
+        name: "Create Proxy",
+        url: "/create/proxy",
+        icon: "icon-pencil"
+      },
+    {
       title: true,
       name: "Contracts",
       wrapper: {

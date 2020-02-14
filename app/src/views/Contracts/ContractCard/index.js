@@ -5,6 +5,7 @@ import { Card, CardHeader, CardBody } from "reactstrap"
 
 import ERC20Display from "../../../components/ERC20/ERC20Display"
 import CrowdsaleDisplay from "../../../components/Crowdsale/CrowdsaleDisplay"
+import ContractDisplay from "../../../components/ContractDisplay"
 
 type Props = {
   contractKey: string,
@@ -27,10 +28,12 @@ const ContractCard = (props: Props) => {
   */
 
   let contractInfo = <div />
-  if (contractInterface === "ERC20") {
+  if (contractInterface === "ERC200") {
     contractInfo = <ERC20Display contract={contractKey} />
   } else if (contractInterface === "Crowdsale") {
     contractInfo = <CrowdsaleDisplay contract={contractKey} />
+  } else {
+    contractInfo = <ContractDisplay contract={contractKey} />
   }
 
   return (

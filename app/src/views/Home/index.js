@@ -5,17 +5,17 @@ import { Col, Card, CardHeader, CardBody, Row, Button } from "reactstrap"
 const Home = () => {
   const handleCreateTokenClick = e => {
     e.preventDefault()
-    window.location = "/#/create/token"
+    window.location.hash = "#/create/token"
   }
 
   const handleCreateCrowdsaleClick = e => {
     e.preventDefault()
-    window.location = "/#/create/crowdsale"
+    window.location.hash = "#/create/crowdsale"
   }
 
   const handleViewContractsClick = e => {
     e.preventDefault()
-    window.location = "/#/contracts/mycontracts"
+    window.location.hash = "#/contracts/mycontracts"
   }
 
   return (
